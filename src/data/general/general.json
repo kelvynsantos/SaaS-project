@@ -1,0 +1,10 @@
+{
+  "footer":{
+    "elements": [
+      {
+        "headline": "Sobre",
+        "text": "feito com  GatsbyJS e <a href='https://magicsoup.io' target='_blank'>magicsoup.io</a>."
+      }
+    ]
+  } 
+}
