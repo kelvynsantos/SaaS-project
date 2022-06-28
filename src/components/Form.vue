@@ -5,6 +5,7 @@
       <input type="text" name="email" placeholder="Email" required />
       <select id="subscription" name="subscription">
         <option value="Free" :selected="getIsSelected('free')">Gratuíto</option>
+        <option value="Plus" :selected="getIsSelected('plus')">Plus</option>
         <option value="Premium" :selected="getIsSelected('premium')">Premium</option>
       </select>
       <textarea name="message" placeholder="Mensagem"></textarea>
