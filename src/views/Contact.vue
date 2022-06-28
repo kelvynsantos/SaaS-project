@@ -1,7 +1,7 @@
 <template>
   <div class="flex center container" :class="menuOpen ? 'no-space' : 'top-spacing'">
     <div class="form-container">
-      <h1 class="primary-text">Contact Us</h1>
+      <h1 class="primary-text">Contate-nos</h1>
       <Form />
     </div>
   </div>
@@ -19,7 +19,7 @@ export default {
   }),
   metaInfo: {
     title: "VuFly",
-    titleTemplate: "%s | Contact us",
+    titleTemplate: "%s | Contate-nos",
     meta: [
       {
         name: "description",

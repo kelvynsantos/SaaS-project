@@ -10,7 +10,7 @@
         <button
           :class="item.isPremium ? 'primary-btn' : 'grey-btn'"
           @click="selectPlan(item.title.toLowerCase())"
-        >Select</button>
+        >Selecione</button>
       </router-link>
     </div>
     <div class="features">

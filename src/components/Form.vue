@@ -1,13 +1,13 @@
 <template>
   <div>
     <form name="contact" class="form" action="https://formspree.io/xgenzlnd" method="POST">
-      <input type="text" name="name" placeholder="Full Name" required />
+      <input type="text" name="name" placeholder="Nome completo" required />
       <input type="text" name="email" placeholder="Email" required />
       <select id="subscription" name="subscription">
         <option value="Free" :selected="getIsSelected('free')">Gratuíto</option>
         <option value="Premium" :selected="getIsSelected('premium')">Premium</option>
       </select>
-      <textarea name="message" placeholder="Message"></textarea>
+      <textarea name="message" placeholder="Mensagem"></textarea>
       <input type="submit" class="primary-btn" />
     </form>
   </div>

@@ -2,8 +2,8 @@
   <div :class="menuOpen ? 'no-space' : 'top-spacing'">
     <div class="container">
       <div class="heading">
-        <h1>Pricing</h1>
-        <p>VuFly provides a subscription model designed for your needs. Choose the 30 day free trial and move to Premium for just 20$</p>
+        <h1>Preços</h1>
+        <p>VuFly fornece um modelo de assinatura projetado para suas necessidades. Escolha a avaliação gratuita de 30 dias e mude para Premium por apenas 20$ ou tenha uma experiência personalizada por apenas 50$</p>
       </div>
       <div class="card-container">
         <PricingCard v-for="item in pricingItems" :key="item.id" :item="item" />
@@ -31,7 +31,7 @@ export default {
   },
   metaInfo: {
     title: "VuFly",
-    titleTemplate: "%s | Pricing",
+    titleTemplate: "%s | Preco",
     meta: [
       {
         name: "description",

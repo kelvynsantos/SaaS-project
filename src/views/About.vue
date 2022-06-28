@@ -16,12 +16,12 @@ export default {
   }),
   metaInfo: {
     title: "VuFly",
-    titleTemplate: "%s | About Us",
+    titleTemplate: "%s | Sobre nós",
     meta: [
       {
         name: "description",
         content:
-          "Our Mission is to provide cater to business needs in the mostly simplest way possible. We are a group of 3 working tirelessly to solve your every day hurdles"
+          "Nossa Missão é atender as necessidades do negócio da forma mais simples possível. Somos um grupo de 3 trabalhando incansavelmente para resolver seus obstáculos diários"
       }
     ]
   }
